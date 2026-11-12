@@ -1,0 +1,31 @@
+# All the settings for one run. To use a different dataset, change only this file.
+
+data:
+  # "synthetic" builds the practice dataset with src/generate_data.py.
+  # "csv" reads a file you supply (for example Rossmann's train.csv, see NEEDS.md).
+  source: synthetic
+  path: data/store_sales.csv
+  date_format: "%Y-%m-%d"
+  # Map the plan's field names (left) to the column names in your CSV (right).
+  # These match the Rossmann Store Sales layout, so Rossmann needs no change here.
+  columns:
+    store: Store
+    date: Date
+    sales: Sales
+    customers: Customers
+    open: Open
+    promo: Promo
+    school_holiday: SchoolHoliday
+
+synthetic:
+  seed: 42          # same seed = same data, row for row
+  n_stores: 60
+  start: "2024-01-01"
+  end: "2026-06-30"
+
+# These three numbers come straight from HYPOTHESES.md. Do not change them after
+# the holdout is opened; log any change under "Deviations" in HYPOTHESES.md instead.
+plan:
+  holdout_months: 3
+  alpha: 0.05
+  min_days_per_group: 5

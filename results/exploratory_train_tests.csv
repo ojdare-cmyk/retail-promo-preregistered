@@ -1,0 +1,6 @@
+window,id,hypothesis,direction,stores_used,stores_dropped,effect_pct,ci_low_pct,ci_high_pct,t_stat,p_raw,p_wilcoxon,testable,p_holm,verdict,flags
+"TRAINING (exploratory, in-sample)",H1,Promotions raise daily sales,greater,60,0,15.280665615381084,13.757676818538233,16.82404419988646,21.395348376529473,8.652574950457665e-30,8.14777897155967e-12,True,3.461029980183066e-29,held,
+"TRAINING (exploratory, in-sample)",H2,Promotions raise customer traffic,greater,60,0,16.500574707081995,14.953224979853896,18.06875282932703,22.85590837407875,2.6568367376185205e-31,8.14777897155967e-12,True,1.3284183688092602e-30,held,
+"TRAINING (exploratory, in-sample)",H3,Promotions raise basket size,greater,60,0,-1.0471271019633188,-1.1449907711986063,-0.9491665504574143,-21.28733741300067,1.0,0.9999999999918522,True,1.0,did not hold,
+"TRAINING (exploratory, in-sample)",H4,Sales lift is larger during school holidays,greater,60,0,-2.8081839974537948,-3.2658478177823858,-2.3483549007702442,-12.075377065417726,1.0,0.9999999999850971,True,1.0,did not hold,
+"TRAINING (exploratory, in-sample)",H5,Day after a promo sells less (pull-forward),less,60,0,-1.9834765738458882,-2.253626761517158,-1.7125797485093908,-14.524831020173597,1.9121172264262075e-21,8.14777897155967e-12,True,5.7363516792786226e-21,held,

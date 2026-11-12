@@ -1,0 +1,6 @@
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+# Raw data files are rebuilt by the pipeline; a real downloaded dataset should not be committed
+data/*.csv
+!data/README.md

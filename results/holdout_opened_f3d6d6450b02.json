@@ -1,0 +1,9 @@
+{
+  "opened_at": "2026-10-20T10:27:29",
+  "holdout_sha256": "f3d6d6450b022678d66e2e7f7c010ce277317c347137ea146af9285e10b25a27",
+  "holdout_start": "2026-04-01",
+  "holdout_end": "2026-06-30",
+  "plan_first_commit": "d896797e2af18119e8e725ec31acfb09e8522a97 2026-10-20T10:22:55-07:00",
+  "plan_latest_commit": "67dd484ab7236a5bbf6b28df7116a71d2697f7e5 2026-10-20T10:27:24-07:00",
+  "code_commit": "67dd484ab7236a5bbf6b28df7116a71d2697f7e5"
+}

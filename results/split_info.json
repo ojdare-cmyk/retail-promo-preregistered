@@ -1,0 +1,11 @@
+{
+  "source_file": "data/store_sales.csv",
+  "source_sha256": "57dca21f2027b06c9313146ce73d828099ea32eaa79619cf466798de22a3e8f2",
+  "train_start": "2024-01-01",
+  "train_end": "2026-03-31",
+  "holdout_start": "2026-04-01",
+  "holdout_end": "2026-06-30",
+  "train_rows": 49260,
+  "holdout_rows": 5460,
+  "holdout_sha256": "f3d6d6450b022678d66e2e7f7c010ce277317c347137ea146af9285e10b25a27"
+}
